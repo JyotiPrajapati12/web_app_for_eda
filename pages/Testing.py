@@ -25,7 +25,7 @@ if uploaded_file is not None:
     
     st.header('Model Prediction')
     
-    model = functions.load_model('class_a_model_trim.pkl')
+    model = functions.load_model('model.pkl')
 
     if model is not None:
         data1=data.drop(['rul_class'],axis=1)
