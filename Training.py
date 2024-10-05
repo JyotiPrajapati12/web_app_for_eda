@@ -7,7 +7,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 st.title('Exploratory Data Analysis of Training Data')
-data = functions.load_data('oil_cunsumption_training_data.csv')
+data = functions.load_data('dataset.csv')
 
 functions.display_dataframe_info(data)
 
